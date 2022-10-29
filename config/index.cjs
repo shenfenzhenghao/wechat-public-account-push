@@ -13,13 +13,13 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'd01f18309a25c3d8f08f3a8475f25eb2',
 
-  PROVINCE: '江苏',
+  PROVINCE: '苏州',
   CITY: '昆山',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '崽崽',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'otHap6EwzN0BZCgVg3vvSpj6tUwM',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -51,7 +51,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'D2sf9Whry5S_fV5iIFAXXZZz-xs_HTsrYDBdwwyEY0E',
+  CALLBACK_TEMPLATE_ID: 'WJ0ivNaMF0263YrnRCh48vnpIxdyFpUBSVoQYpuTPmc',
 
   CALLBACK_USERS: [
     {

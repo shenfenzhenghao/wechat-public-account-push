@@ -14,7 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: 'd01f18309a25c3d8f08f3a8475f25eb2',
 
   PROVINCE: '江苏',
-  CITY: '苏州',
+  CITY: '昆山',
 
   USERS: [
     {
@@ -29,14 +29,14 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1999', date: '02-16',
+          type: '乖乖生日', name: '阴历', year: '1999', date: '02-16',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '杨思文', year: '1999', date: '04-02',
+          type: '乖乖生日', name: '阳历', year: '1999', date: '04-02',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '10-01',
+          type: '下次周年庆', name: '相识纪念日', year: '2020', date: '10-01',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -55,7 +55,7 @@ const USER_CONFIG = {
 
   CALLBACK_USERS: [
     {
-      name: '自己',
+      name: '崽崽',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: '	otHap6CXY4wzM98stg8ypE6g6Bc0',
     }
